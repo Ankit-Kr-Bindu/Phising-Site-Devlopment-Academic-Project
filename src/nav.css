@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+.navbar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.navbar-brand {
+    font-size: 4.5rem;
+    text-decoration: none;
+    position: absolute;
+    padding-top: 50px;
+    font-family: 'Wallpoet', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(45deg, #e46f0f, #34e89e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-btn {
+    position: relative;
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+ }
